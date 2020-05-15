@@ -1,0 +1,372 @@
+* {
+	margin: 0px;
+	padding: 0px;
+  }
+  
+  @font-face {
+	font-family: NOVABOLD;
+	src:url(fonts/NOVABOLD.otf);
+}
+  body{
+	  /* background-color:#dfd2bf;*/
+	  background-image: url(../img/2.png);
+	  background-repeat: no-repeat;
+	  background-attachment: fixed;
+	  font-family:'Franklin Gothic Demi Cond';
+	  /* font-family: 'NOVABOLD';*/
+	}
+
+	html {
+		font-size: 16px;
+	}
+	
+	.menu {
+		width: 4rem;
+		height: 100%;
+		background: #2a2929;
+		border-radius: 0.5rem;
+		position: absolute;
+		top: 0%;
+		left: 0%;
+		 font-family:'Franklin Gothic Demi Cond';
+		 /* font-family: 'NOVABOLD';*/
+		font-size: 2rem;
+		color: white;
+		text-align: center;
+		transition: left 0.7s;
+	}
+	
+	.checkbox:checked ~ .menu {
+		left: 20%;
+		border-radius: 0 0.5rem 0.5rem 0;
+	}
+	
+	.left-perfil {
+		padding:20px;
+		float:left;
+		width:20%; /* The width is 20%, by default */
+		background:  #a62020;
+	  }
+
+	.left-panel {
+		width: 20%;
+		height: 100%;
+		background-image: url(../img/left-img.png);
+		/* background:  #a62020;*/
+		position: absolute;
+		top: 0;
+		left: -40%;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		transition: left 0.4s;
+	}
+	
+	.checkbox:checked ~ .left-panel {
+		left: 0;
+	}
+	
+	.checkbox {
+		display: none;
+		
+	}
+	
+	ul a {
+		color: #F7F7F7;
+		text-decoration: none;
+	}
+	
+	li {
+		list-style: none;
+		font-size: 2rem;
+		text-align: center;
+		padding: 0 0.5rem;
+		margin: 1rem 0;
+	}
+	
+	li:hover {
+		color: white;
+		border: solid white;
+		border-width: 0 0rem;
+	}
+
+	table td, tr, th{
+		text-align: center;
+		border: 0px solid rgb(0, 0, 0);
+		width: 10%;
+
+	  }
+
+	  table {
+		border-collapse: collapse;
+		width: 100%;
+	  }
+	  
+	  th, td {
+		padding: 15px;
+	  } 
+	  
+	  th {
+		color: white;
+		font-weight: bold;
+		background-color: #000000;
+		border-bottom: solid 5px #0e0e0e;
+	  }
+	  tr:nth-child(even){
+		color: white;
+		background-color: rgba(65, 65, 65, 0.5);
+	  }
+	  tr:nth-child(odd){
+		color: white;
+		  background-color: rgba(128, 128, 128, 0.5);
+	  }
+
+  /* SEARCH FORM */
+
+  .search {padding: 6px 40px; border-radius: 4px 4px 4px 4px; -moz-border-radius: 4px 4px 4px 4px; -webkit-border-radius: 4px 4px 4px 4px;
+	border: 1px solid #DBDBDB; }
+
+/* HOME */
+.h-content {width: 65%; margin: auto; margin-top: 10%;}
+
+.tittle {
+	font-family:'Franklin Gothic Demi Cond';
+	font-size: 60px;
+	color: white;
+}
+p {
+	font-family:'Franklin Gothic Demi Cond';
+	font-size: 18px;
+	color: white;
+}
+/* */
+
+	.login-box {
+	width: 320px;
+	height: 500px;
+	background: #000;
+	color: #fff;
+	top: 50%;
+	left: 50%;
+	position: absolute;
+	transform: translate(-50%, -50%);
+	box-sizing: border-box;
+	padding: 100px 30px;
+  }
+
+
+  .main-content {
+	
+	width: 500px;
+	margin: 10px auto;
+	border: 1px solid ;
+	padding: 100px 50px;
+  }
+  
+  .header {
+	border: 0px solid #000;
+	margin-bottom: 5px;
+  }
+  
+  .header img {
+	width: 10%;
+	margin: auto;
+	position: relative;
+	left: 40px;
+  }
+  
+  .input {
+	width: 100%;
+	margin-bottom: 5px;
+	padding: 8px 12px;
+	border: 1px solid #dbdbdb;
+	box-sizing: border-box;
+	border-radius: 3px;
+  }
+  
+  .overlap-text {
+	position: relative;
+  }
+  
+  .overlap-text a {
+	position: absolute;
+	top: 8px;
+	right: 10px;
+	color: #003569;
+	font-size: 14px;
+	text-decoration: none;
+	font-family: 'Segoe UI', monospace;
+	font-weight: 400;
+  }
+  
+  .btn {
+	width: 100%;
+	background-color: #131313;
+	border: 1px solid #131313;
+	padding: 5px 12px;
+	color: #fff;
+	font-weight: bold;
+	cursor: pointer;
+	border-radius: 3px;
+  }
+  
+  
+  
+  
+  .s-part {
+	text-align: center;
+	font-family: 'Segoe UI', monospace;
+	font-weight: 400;
+	color: #333;
+  }
+  
+  .s-part a {
+	text-decoration: none;
+	cursor: pointer;
+	color: #29363c;
+	font-family: 'Segoe UI', monospace;
+	font-weight: 400;
+  }
+  
+  .myButton {
+	background-color:#3e3ed6;
+	-moz-border-radius:10px;
+	-webkit-border-radius:10px;
+	border-radius:10px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	padding:15px 41px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2768b8;
+	border: 0px;
+  }
+  .myButton:hover {
+	background-color:#1e32b8;
+  }
+  .myButton:active {
+	position:relative;
+	top:1px;
+  }
+  
+  .button_white {
+	background-color: white;
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	border-radius:6px;
+	display:inline-block;
+	cursor:pointer;
+	color:#262626;
+	font-size:16px;
+	padding:6px 9px;
+	text-decoration:none;
+	border: 1px solid #DBDBDB;
+	font-family: 'Segoe UI', monospace;
+	font-weight: 600;
+	line-height: 18px;
+  }
+  .button_white:active {
+	position:relative;
+	top:1px;
+  }
+  
+  .button_blue {
+	background-color: #3897F0;
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	border-radius:6px;
+	display:inline-block;
+	cursor:pointer;
+	color:white;
+	font-size:16px;
+	padding:6px 9px;
+	text-decoration:none;
+	border: 0px solid #DBDBDB;
+	font-family: 'Segoe UI', monospace;
+	font-weight: 600;
+	line-height: 18px;
+  }
+  .button_blue:active {
+	position:relative;
+	top:1px;
+  }
+  
+  .button_edit_on {
+	background-color: white;
+	display:inline-block;
+	cursor:pointer;
+	color:#262626;
+	font-size:18px;
+	padding:20px 30px;
+	text-decoration:none;
+	border-left: 2px solid black;
+	border-right: 0px;
+	border-top: 0px;
+	border-bottom: 0px;
+	font-family: 'Segoe UI', monospace;
+	font-weight: 600;
+	line-height: 20px;
+  }
+  .button_edit {
+	background-color: white;
+	display:inline-block;
+	cursor:pointer;
+	color:#262626;
+	font-size:18px;
+	padding:20px 30px;
+	text-decoration:none;
+	border-left: 0px solid #999;
+	border-right: 0px;
+	border-top: 0px;
+	border-bottom: 0px;
+	font-family: 'Segoe UI', monospace;
+	font-weight: 400;
+	line-height: 20px;
+  }
+  .button_edit:hover {
+	background-color: white;
+	display:inline-block;
+	cursor:pointer;
+	color:#262626;
+	font-size:18px;
+	padding:20px 28px;
+	text-decoration:none;
+	border-left: 2px solid #999;
+	border-right: 0px;
+	border-top: 0px;
+	border-bottom: 0px;
+	font-family: 'Segoe UI', monospace;
+	font-weight: 400;
+	line-height: 20px;
+  }
+
+
+/* LOGIN */
+
+.alert {
+	padding: 20px;
+	background-color: #303030;
+	color: white;
+  }
+
+.alert1 {
+	padding: 20px;
+	background-color: #616161;
+	color: white;
+  }
+  .closebtn {
+	margin-left: 15px;
+	color: white;
+	font-weight: bold;
+	float: right;
+	font-size: 22px;
+	line-height: 20px;
+	cursor: pointer;
+	transition: 0.3s;
+  }
+  
+  .closebtn:hover {
+	color: black;
+  }
