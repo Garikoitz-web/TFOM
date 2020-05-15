@@ -1,0 +1,423 @@
+* {
+	margin: 0px;
+	padding: 0px;
+  }
+  
+  body{
+	  /* background-color:#dfd2bf;*/
+	  background-image: url(../../img/fondo.png);
+	  background-repeat: no-repeat;
+	  background-attachment: fixed;
+	  font-family:'Franklin Gothic Demi Cond';
+	}
+
+	html {
+		font-size: 16px;
+	}
+
+	li {
+		list-style-type:none;
+	}
+
+	ul a {
+		color: #1a1a1a;
+		text-decoration: none;
+	}
+	
+	
+	.wallpaper{
+		/* background-color:#dfd2bf;*/
+		background-image: url(../../img/1.png);
+		background-repeat: no-repeat;
+		background-attachment: fixed;
+		font-family:'Franklin Gothic Demi Cond';
+	  }
+
+
+
+/* HOME */
+.h-content {width: 65%; margin: auto; margin-top: 10%;}
+   
+/* CANCION */
+
+* {
+	box-sizing:border-box;
+	font-family:'Franklin Gothic Demi Cond';
+  }
+    
+  .main {
+	color: white;
+	background-color:#1a1a1a;
+	padding:50px;
+	float:left;
+	border-radius: 0.5rem;
+	width:60%; /* The width is 60%, by default */
+	font-family:'Franklin Gothic Demi Cond';
+  }
+
+  .line {
+	background-color:#a62020;
+	text-align:center;
+	border-radius: 0.5rem;
+	padding:5px;
+	margin-top:80px;
+	margin-bottom: 80px;
+  }
+  
+
+  .li-tittle {
+	list-style: none;
+	font-size: 2rem;
+	text-align: center;
+	padding: 0 0.5rem;
+	margin: 1rem 0;
+  }
+
+  .tittle {
+	list-style: none;
+	font-size: 5rem;
+	text-align: center;
+	padding: 0 0.5rem;
+	margin: 1rem 0;
+  }
+
+  .select {
+	color: white;
+	background-color:#252525;
+	padding:50px;
+	float:left;
+	border-radius: 0.5rem;
+	width:100%; /* The width is 60%, by default */
+	font-family:'Franklin Gothic Demi Cond';
+	margin-bottom: 10px;
+  }
+
+  .select2 {
+	color: white;
+	background-color:#252525;
+	padding:20px;
+	float:left;
+	border-radius: 0.5rem;
+	width:100%; /* The width is 60%, by default */
+	font-family:'Franklin Gothic Demi Cond';
+	margin-bottom: 10px;
+  }
+
+  .label-line {
+	background-color:#a62020;
+	text-align:center;
+	border-radius: 0.5rem;
+	padding:1px;
+	margin-top:10px;
+	margin-bottom: 10px;
+  }
+
+  .label-text {
+	font-size: 1.5rem;
+	text-align: left;
+	margin-bottom: 1rem;
+  }
+
+  .left-perfil {
+	padding:20px;
+	float:left;
+	width:20%; /* The width is 20%, by default */
+	background:  #a62020;
+  }
+
+  .left {
+	padding:20px;
+	float:left;
+	width:20%; /* The width is 20%, by default */
+  }
+  
+  .right {
+	position: fixed;
+	z-index: 1;
+	top: 20%;
+	right: 0;
+	width:20%; /* The width is 20%, by default */
+  }
+  
+  .li-right {
+	list-style: none;
+	font-size: 2rem;
+	text-align: center;
+	padding: 0 0.5rem;
+	margin: 1rem 0;
+  }
+
+
+  /* Use a media query to add a break point at 800px: */
+  @media screen and (max-width:800px) {
+	.left, .main, .right {
+	  width:100%; /* The width is 100%, when the viewport is 800px or smaller */
+	}
+  }
+
+
+  /*	CUADRO DE ELEGIR	*/
+
+select {
+    text-rendering: auto;
+    color: -internal-light-dark-color(black, white);
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 10px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    -webkit-appearance: menulist;
+    box-sizing: border-box;
+    align-items: center;
+    white-space: pre;
+    -webkit-rtl-ordering: logical;
+    background-color: -internal-light-dark-color(white, black);
+    cursor: default;
+    margin: 0em;
+	font: 400 13.3333px 'Franklin Gothic Demi Cond';
+    font-style: normal;
+    font-variant-ligatures: normal;
+    font-variant-caps: normal;
+    font-variant-numeric: normal;
+    font-variant-east-asian: normal;
+    font-weight: 400;
+    font-stretch: normal;
+    line-height: normal;
+    font-family: 'Franklin Gothic Demi Cond';
+    border-radius: 0px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(169, 169, 169);
+	border-image: initial;
+	width: 100%;
+	height: 3%;
+
+}
+
+.select-text {
+	font-size: 1.1rem;
+	text-align: left;
+}
+
+.select-text2 {
+	font-size: 1.5rem;
+	text-align: center;
+}
+/* */
+
+  .main-content {
+	width: 250px;
+	margin: 10px auto;
+	border: 0px solid ;
+	padding: 40px 50px;
+  }
+  
+  .header {
+	border: 0px solid #000;
+	margin-bottom: 5px;
+  }
+  
+  .header img {
+	width: 10%;
+	margin: auto;
+	position: relative;
+	left: 40px;
+  }
+  
+  .input {
+	width: 100%;
+	margin-bottom: 5px;
+	padding: 8px 12px;
+	border: 1px solid #dbdbdb;
+	box-sizing: border-box;
+	border-radius: 3px;
+  }
+  
+  .overlap-text {
+	position: relative;
+  }
+  
+  .overlap-text a {
+	position: absolute;
+	top: 8px;
+	right: 10px;
+	color: #003569;
+	font-size: 14px;
+	text-decoration: none;
+	font-family: 'Segoe UI', monospace;
+	font-weight: 400;
+  }
+  
+  .btn {
+	width: 100%;
+	background-color: #131313;
+	border: 1px solid #131313;
+	padding: 5px 12px;
+	color: #fff;
+	font-weight: bold;
+	cursor: pointer;
+	border-radius: 3px;
+  }
+  
+  
+  
+  
+  .s-part {
+	text-align: center;
+	font-family: 'Segoe UI', monospace;
+	font-weight: 400;
+	color: #333;
+  }
+  
+  .s-part a {
+	text-decoration: none;
+	cursor: pointer;
+	color: #29363c;
+	font-family: 'Segoe UI', monospace;
+	font-weight: 400;
+  }
+  
+  .myButton {
+	background-color:#3e3ed6;
+	-moz-border-radius:10px;
+	-webkit-border-radius:10px;
+	border-radius:10px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	padding:15px 41px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2768b8;
+	border: 0px;
+  }
+  .myButton:hover {
+	background-color:#1e32b8;
+  }
+  .myButton:active {
+	position:relative;
+	top:1px;
+  }
+  
+  .button_white {
+	background-color: white;
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	border-radius:6px;
+	display:inline-block;
+	cursor:pointer;
+	color:#262626;
+	font-size:16px;
+	padding:6px 9px;
+	text-decoration:none;
+	border: 1px solid #DBDBDB;
+	font-family: 'Segoe UI', monospace;
+	font-weight: 600;
+	line-height: 18px;
+  }
+  .button_white:active {
+	position:relative;
+	top:1px;
+  }
+  
+  .button_blue {
+	background-color: #3897F0;
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	border-radius:6px;
+	display:inline-block;
+	cursor:pointer;
+	color:white;
+	font-size:16px;
+	padding:6px 9px;
+	text-decoration:none;
+	border: 0px solid #DBDBDB;
+	font-family: 'Segoe UI', monospace;
+	font-weight: 600;
+	line-height: 18px;
+  }
+  .button_blue:active {
+	position:relative;
+	top:1px;
+  }
+  
+  .button_edit_on {
+	background-color: white;
+	display:inline-block;
+	cursor:pointer;
+	color:#262626;
+	font-size:18px;
+	padding:20px 30px;
+	text-decoration:none;
+	border-left: 2px solid black;
+	border-right: 0px;
+	border-top: 0px;
+	border-bottom: 0px;
+	font-family: 'Segoe UI', monospace;
+	font-weight: 600;
+	line-height: 20px;
+  }
+  .button_edit {
+	background-color: white;
+	display:inline-block;
+	cursor:pointer;
+	color:#262626;
+	font-size:18px;
+	padding:20px 30px;
+	text-decoration:none;
+	border-left: 0px solid #999;
+	border-right: 0px;
+	border-top: 0px;
+	border-bottom: 0px;
+	font-family: 'Segoe UI', monospace;
+	font-weight: 400;
+	line-height: 20px;
+  }
+  .button_edit:hover {
+	background-color: white;
+	display:inline-block;
+	cursor:pointer;
+	color:#262626;
+	font-size:18px;
+	padding:20px 28px;
+	text-decoration:none;
+	border-left: 2px solid #999;
+	border-right: 0px;
+	border-top: 0px;
+	border-bottom: 0px;
+	font-family: 'Segoe UI', monospace;
+	font-weight: 400;
+	line-height: 20px;
+  }
+
+
+/* LOGIN */
+
+.alert {
+	padding: 20px;
+	background-color: #303030;
+	color: white;
+  }
+
+.alert1 {
+	padding: 20px;
+	background-color: #616161;
+	color: white;
+  }
+  .closebtn {
+	margin-left: 15px;
+	color: white;
+	font-weight: bold;
+	float: right;
+	font-size: 22px;
+	line-height: 20px;
+	cursor: pointer;
+	transition: 0.3s;
+  }
+  
+  .closebtn:hover {
+	color: black;
+  }
